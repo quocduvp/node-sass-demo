@@ -1,0 +1,23 @@
+{
+  "name": "node-sass-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quocduvp/node-sass-demo.git"
+  },
+  "keywords": [],
+  "author": "Adward <adward0511@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quocduvp/node-sass-demo/issues"
+  },
+  "homepage": "https://github.com/quocduvp/node-sass-demo#readme",
+  "dependencies": {
+    "node-sass": "^4.9.2"
+  }
+}

@@ -1,0 +1,4 @@
+//những file scss có _ phía trước lúc compile sẽ không dc nhìn thấy. 
+//sẽ truyền qua bằng phương thức import
+@import "_variables";
+@import "_vendor";
